@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            美食今日推荐
+        </title>
+        <style>
+            .box{
+                border: 1px solid rgb(0, 162, 255);
+                border-radius: 5px 5px 5px 5px;
+                padding: 30px 10px 10px 20px;
+                margin: 0 auto;
+                width: 290px;
+                height: 480px;
+            }
+            div.type{
+
+                width: 280px;
+                display: inline-block;
+            }
+            a{
+                color: crimson;
+                font-size: 14px;
+                font-weight: bold;
+                vertical-align: top;
+                line-height: 10px;
+            }
+
+            a.type1{
+                text-decoration: none;
+                color: red;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            a.type2{
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            a.type3{
+                color: grey;
+                font-size: 13px;
+                vertical-align: middle;
+                position: relative;
+                
+            }
+            img{
+                margin-right: 20px;
+            }
+            img.type1{
+                float: right;
+                
+            }
+            li{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                display: inline-block;
+                width: 120px;
+                vertical-align: top;
+                line-height: 20px;
+            }
+            img.type{
+                position: relative;
+                top: -450px;
+                left:40%;
+                
+            }
+            ul{
+                list-style: none;
+                padding-inline-start: 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="box">
+            <a class="type1">SHOP&nbsp;<a class="type2">今日推荐</a></a>
+            <img class="type1" src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/more.gif">
+            <ul>
+                <div class="type">
+                <li>
+                    <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img9.gif">
+                   
+                </li>
+                <li>
+                    <a href="">汉来国际美食百货</a>
+                    <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                </li></div>
+                <div class="type">
+                <li>
+                    <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img7.gif">
+                </li>
+                <li>
+                    <a href="">汉来国际美食百货</a>
+                    <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                </li></div>
+                <div class="type">
+                    <li>
+                        <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img8.gif">
+                    </li>
+                    <li>
+                        <a href="">汉来国际美食百货</a>
+                        <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                    </li></div>
+                    <div class="type">
+                        <li>
+                            <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img7.gif">
+                        </li>
+                        <li>
+                            <a href="">汉来国际美食百货</a>
+                            <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                        </li></div>
+            </ul>
+        </div>
+        <img class="type" src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/shen.png">
+    </body>
+</html>
