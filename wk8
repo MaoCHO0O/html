@@ -1,0 +1,295 @@
+<!DOCTYPE html>//Q1
+<html>
+    <head>
+        <title>
+            美食今日推荐
+        </title>
+        <style>
+            .box{
+                border: 1px solid rgb(0, 162, 255);
+                border-radius: 5px 5px 5px 5px;
+                padding: 30px 10px 10px 20px;
+                margin: 0 auto;
+                width: 290px;
+                height: 480px;
+            }
+            div.type{
+
+                width: 280px;
+                display: inline-block;
+            }
+            a{
+                color: crimson;
+                font-size: 14px;
+                font-weight: bold;
+                vertical-align: top;
+                line-height: 10px;
+            }
+
+            a.type1{
+                text-decoration: none;
+                color: red;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            a.type2{
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            a.type3{
+                color: grey;
+                font-size: 13px;
+                vertical-align: middle;
+                position: relative;
+                
+            }
+            img{
+                margin-right: 20px;
+            }
+            img.type1{
+                float: right;
+                
+            }
+            li{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                display: inline-block;
+                width: 120px;
+                vertical-align: top;
+                line-height: 20px;
+            }
+            img.type{
+                position: relative;
+                top: -450px;
+                left:40%;
+                
+            }
+            ul{
+                list-style: none;
+                padding-inline-start: 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="box">
+            <a class="type1">SHOP&nbsp;<a class="type2">今日推荐</a></a>
+            <img class="type1" src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/more.gif">
+            <ul>
+                <div class="type">
+                <li>
+                    <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img9.gif">
+                   
+                </li>
+                <li>
+                    <a href="">汉来国际美食百货</a>
+                    <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                </li></div>
+                <div class="type">
+                <li>
+                    <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img7.gif">
+                </li>
+                <li>
+                    <a href="">汉来国际美食百货</a>
+                    <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                </li></div>
+                <div class="type">
+                    <li>
+                        <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img8.gif">
+                    </li>
+                    <li>
+                        <a href="">汉来国际美食百货</a>
+                        <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                    </li></div>
+                    <div class="type">
+                        <li>
+                            <img src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/img7.gif">
+                        </li>
+                        <li>
+                            <a href="">汉来国际美食百货</a>
+                            <a class="type3">口味：创意中餐<br/>区域：朝阳/CBD</a>
+                        </li></div>
+            </ul>
+        </div>
+        <img class="type" src="/08-01 教学演示案例/02 作业素材/作业3：美食今日推荐/image/shen.png">
+    </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>//Q2
+<html>
+    <head>
+        <title>
+            京东首页轮播
+        </title>
+        <style>
+            div.type1{
+                width: 180px;
+                height: 30px;
+                display: block;
+                position: absolute;
+                left: 40%;
+                top: 420px;
+            }
+
+            div.type2{
+                width: 24px;
+                height: 24px;
+                border-radius:12px 12px 12px 12px ;
+                background-color: black;
+                color: white;
+                text-align: center;
+                display: block;
+            }
+            div.type2:hover{
+                background-color: coral;
+            }
+            ul{
+                list-style: none;
+            }
+            li{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <center><img src="/08-01 教学演示案例/02 作业素材/作业4：京东首页轮播/image/focus.jpg"></center>
+        <div class="type1">
+            <ul>
+                <li>
+                    <div class="type2">1</div>
+                </li>
+                <li>
+                    <div class="type2">2</div>
+                </li>
+                <li>
+                    <div class="type2">3</div>
+                </li>
+                <li>
+                    <div class="type2">4</div>
+                </li>
+                <li>
+                    <div class="type2">5</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>//Q3
+<html>
+    <head>
+        <title>
+            新东方顶导航
+        </title>
+        <style>
+            .box{
+                height: 50px;
+                background-color: rgb(235, 232, 232);
+                padding-top: 8px;
+                width:1100px;
+                border-bottom: 1px dotted grey;
+            }
+
+            div.type{
+                overflow: hidden;
+                width: 50px;
+                height: 18px;
+                display: block;
+                position: absolute;
+                left: 700px;
+                top: 30px;
+            }
+            div.type:hover{
+                height: 190px;
+                width: 190px;
+                border: 1px solid grey;
+                padding: 10px 10px 10px 20px; 
+                position: absolute;  
+                top: 66px;
+                left: 600px;
+            }
+            div.type2{
+                border-bottom:1px solid rgb(199, 195, 195) ;
+                width: 180px;
+                padding-bottom: 10px;
+                line-height: 22px;
+            }
+            div.type2:last-of-type{
+                border: white;
+            }
+            a{
+                text-decoration: none;
+                color: grey;
+                font-size: 16px;
+            }
+            div a{
+                font-size: 14px;
+            }
+            img{
+                margin-right: 40px; 
+                
+            }
+           
+            ul{
+                list-style: none;
+               display: inline-block;
+               line-height: 16px;
+               vertical-align: top;
+            }
+            li{
+               margin-right: 14px;
+               display: inline;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <img src="/08-01 教学演示案例/02 作业素材/作业5：新东方顶导航/图片素材/logo.gif" height="40px" >
+            <ul>
+                <li><a>购物车</a></li>
+                <li><a>|</a></li>
+                <li><a>优惠劵</a></li>
+                <li><a>|</a></li>
+                <li><a>快速注卡</a></li>
+                <li><a>|</a></li>
+                <li><a>各地购课</a></li>
+                <li><a>|</a></li>
+                <li><a>手机报</a></li>
+                <li><a>|</a></li>
+                <li><a>网站导航</a></li>
+                <div class="type"><img src="/08-01 教学演示案例/02 作业素材/作业5：新东方顶导航/图片素材/open_icon.gif">
+                    <div class="type2"><a>托福&nbsp;&nbsp;雅思&nbsp;&nbsp;考研&nbsp;&nbsp;
+                        职称英语&nbsp;&nbsp;初中&nbsp;&nbsp;日语
+                    </a></div>
+                    <div class="type2"><a>网络课堂&nbsp;&nbsp;资讯中心&nbsp;&nbsp;
+                        知识堂&nbsp;&nbsp;大师讲坛&nbsp;&nbsp;学习论坛&nbsp;&nbsp;
+                        学词&nbsp;&nbsp;考研搜校
+                    </a></div>
+                    <div class="type2"><a>M-Zone&nbsp;&nbsp;手机报&nbsp;&nbsp;
+                        时时英语
+                    </a></div>
+                </div>
+                
+            </ul>
+        </div>
+    </body>
+</html>
+
+
