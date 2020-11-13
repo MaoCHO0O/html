@@ -1,0 +1,334 @@
+<!DOCTYPE html>//Q1
+<html>
+    <head>
+        <title>
+            QQ彩贝高级搜索
+        </title>
+        <style>
+            div.box{
+                margin: 0 auto;
+                margin-top: 60px;
+                border:1px solid rgb(190, 190, 190);
+                padding: 8px 8px 8px 8px;
+                width: 260px;
+                height: 180px;
+                overflow: hidden;
+            }
+            div.box:hover{
+                height: 340px;
+                transition: all 2s linear ;
+            }
+            div.type2{
+                width: 150px;
+            }
+            h2{
+                font-weight: bolder;
+                line-height:8px;
+                padding-inline-start: 8px;
+            }
+            div.type1{
+                width: 242px;
+                height: 10px;
+                background-color: red;
+                margin-bottom: 20px;
+                margin-left: 8px;
+            }
+            input.type1{
+                height: 26px;
+                width: 230px;
+                margin-bottom: 20px;
+                outline: none;
+            }
+            input.type2{
+                height: 40px;
+                width: 75px;
+                background-color: rgb(185, 185, 185);
+                border-bottom: 2px solid grey;
+                border-right: 2px solid grey;
+                border-top: 2px solid white;
+                border-left: 2px solid white;
+                outline: none;
+                margin-bottom: 20px;
+            }
+            input::placeholder{
+                font-size: 16px;
+                padding-inline-start: 8px;
+                
+            }
+            form select{
+                color: grey;
+                margin-right: 10px;
+                width: 60px;
+                margin-bottom: 10px;
+            }
+            form select:last-of-type{
+                float: left;
+                margin-left: 2px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h2>高级搜索</h2>
+            <div class="type1"></div>
+            <center><input class="type1" type="text" name="input1" placeholder="请输入关键字"></center>
+            <center><input class="type2" type="button" value="搜索"></center>
+            <center><div class="type2"><form>
+                <select name="1">
+                    <option value="1">场合</option>
+                </select>
+                <select name="2">
+                    <option value="2">性别</option>
+                </select>
+                <select name="3">
+                    <option value="3">风格</option>
+                </select>
+                <select name="4">
+                    <option value="4">色系</option>
+                </select>
+                <select name="5">
+                    <option value="5">价格</option>
+                </select>
+                <select name="6">
+                    <option value="6">年龄</option>
+                </select>
+                <select name="7">
+                    <option value="7">季节</option>
+                </select>
+            </form></div></center>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>//Q2
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>百度糯米购物信息导航</title>
+		<style>
+			html,body{
+				margin: 0;
+				padding: 0;
+				width: 100vw;
+				font-size: 0;
+			}
+			#list{
+				position: fixed;
+				right: -80px;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.listBox{
+				position: relative;
+				margin: 5px 0;
+				cursor: pointer;
+			}
+			.imgBox{
+				background-color:black;
+				height: 30px;
+				width: 30px;
+				line-height: 30px;
+				text-align: center;
+				display: inline-block;
+				position: relative;
+				z-index: 1;
+				font-size: 14px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			p{
+				margin: 0;
+				display: inline-block;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				width: 80px;
+				font-size: 14px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+				color: white;
+				background-color:tomato;
+			}
+			.listBox:hover p{
+				transition: 0.3s;
+				transform: translateX(-100px);
+			}
+			.listBox:hover .imgBox{
+				transition: 0.3s;
+				background-color: tomato;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div style="width: 100vw;">
+				<img src="images/img.bmp" style="width: 100%;">
+			</div>
+			<div id="list">
+				<div class="listBox">
+					<div class="imgBox">
+						<img src="images/toolbar_05.png" />
+					</div>
+					<p>购物车</p>
+				</div>
+				<div class="listBox">
+					<div class="imgBox">
+						<img src="images/toolbar_10.png" />
+					</div>
+					<p>我的关注</p>
+				</div>
+				<div class="listBox">
+					<div class="imgBox">
+						<img src="images/toolbar_15.png" />
+					</div>
+					<p>我的足迹</p>
+				</div>
+				<div class="listBox">
+					<div class="imgBox">
+						<img src="images/toolbar_19.png" />
+					</div>
+					<p>我的消息</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>//Q3
+<html>
+    <head>
+        <title>
+            城市动画
+        </title>
+        <style>
+            div.type{
+                border: none;
+                z-index: 0;
+                height: 1000px;
+                width: 1880px;
+                overflow: hidden;
+                animation: myani 20s linear 0s infinite alternate running;
+            }
+            img.type1{
+                position: relative;
+                top: 400px;
+                animation: myani2 60s linear 0s infinite alternate running;
+            }
+            div.type1{
+                z-index: 0;
+                background-image: url("images/beans.png");
+                background-repeat: no-repeat;
+                height: 200px;
+                position: relative;
+                top: 300px;
+                left: 50%;
+            }
+            div.type2{
+                z-index: 0;
+                position: relative;
+                top: 230px;
+                background-image: url("images/skyline.png");
+                height: 100px;
+            }
+            div.type3{
+                z-index: 0;
+                position: relative;
+                top: 140px;
+                background-image: url("images/groundBack.png");
+                height: 300px;
+            }
+            div.type4{
+                z-index: 1;
+                height: 250px;
+                position: relative;
+                top: -300px;
+                left: 800px;
+            }
+            div.type5{
+                z-index: 2;
+                background-image: url("images/dowEventCenter.png");
+                height: 200px;
+                background-repeat: no-repeat;
+                position: relative;
+                top: -430px;
+                left: 18%;
+            }
+            div.type6{
+                z-index: 3;
+                height: 300px;
+                background-image: url("images/groundMid.png");
+                position: relative;
+                top: -560px;
+                left: 15%;
+            }
+            div.type7{
+                z-index: 4;
+                height: 370px;
+                background-image: url("images/friendshipShell.png");
+                background-repeat: no-repeat;
+                position: relative;
+                top: -1060px;
+                left: 28%;
+            }
+            div.type8{
+                z-index: 5;
+                height: 300px;
+                background-image: url("images/groundFront.png");
+                position: relative;
+                top: -1252px;
+                left: -14%;
+            }
+            img{
+                margin-right: 200px;
+            }
+            @-webkit-keyframes myani{
+                0% {background-color: white;}
+                25% {background-color: tomato;}
+                50% {background-color: black;}
+                75% {background-color: cornflowerblue;}
+                100% {background-color: darkkhaki;}
+            }
+            @-webkit-keyframes myani2{
+                0%{transform: rotate(25deg);}
+                25%{transform: translateX(2000px);}
+                50%{transform: rotate(20deg);}
+                75%{transform: translateX(1500px);}
+                100%{transform:rotate(300deg)}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="type">
+            <img class="type1" src="/08-02 提供给学员的内容/02 作业素材/作业5：城市场景动画/images/balloon.png">
+            <div class="type1">
+                <div class="type9"></div>
+            </div>
+            <div class="type2"></div>
+            <div class="type3"></div>
+            <div class="type4"><img src="/08-02 提供给学员的内容/02 作业素材/作业5：城市场景动画/images/Glockenspiel.png">
+                <img src="/08-02 提供给学员的内容/02 作业素材/作业5：城市场景动画/images/Planetarium.png">
+            </div>
+            <div class="type5"></div>
+            <div class="type6"></div>
+            <div class="type7"></div>
+            <div class="type8"></div>
+        </div>
+    </body>
+</html>
