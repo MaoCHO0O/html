@@ -1,0 +1,399 @@
+<!DOCTYPE html>//Q1
+<html>
+    <head>
+        <title>
+            摄影热门小镇
+        </title>
+        <style>
+            ul{
+                list-style-type: none;
+            }
+
+            div.box{
+                margin: 0 auto;
+                border: 1px solid grey;
+                width: 660px;
+                height: auto;
+                padding-left: 0px;
+            }
+
+            h4 {
+                padding-inline-start: 20px;
+                font-weight: bolder;
+                line-height: 10px;
+            }
+
+            div.type1{
+                border:1px solid grey ;
+                border-radius: 5px;
+                padding: 5px;
+                width: 60px;
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+
+            div.type2{
+                width: 100px;
+                float: left;
+                margin-right: 20px;
+            }
+
+            .list{
+                     
+                display: inline-block;
+                
+            }
+
+            img,span{
+                font-size: 14px;
+                color: cornflowerblue;
+                vertical-align: top;
+                
+            }
+
+            a{  
+                color: grey;
+                font-size: 12px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h4>摄影社区热门小镇</h4>
+            <ul>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_01.jpg">
+                        
+                    </div>
+                    <div class="type2">
+                    <span>风景狙击手</span><br/>
+                    
+                        <a>成员：280</a><br/>
+                       <a> 作品：276</a></div>
+                </li>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_02.jpg">
+                    </div>
+                    <div class="type2">
+                    <span>叙事感</span><br/>
+                    <a>成员：235</a><br/>
+                    <a>作品：116</a></div>
+                </li>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_03.jpg">
+                    </div>
+                    <div class="type2">
+                    <span>定焦世界</span><br/>
+                    <a>成员：56</a><br/>
+                    <a>作品：456</a></div>
+                </li>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_04.jpg">
+                    </div>
+                    <div class="type2">
+                    <span>中画幅乐园</span><br/>
+                    <a>成员：130</a><br/>
+                    <a>作品：276</a></div>
+                </li>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_05.jpg" height="60px">
+                    </div>
+                    <div class="type2">
+                    <span>《卡啪》先锋</span>
+                    <a>成员：78</a><br/>
+                    <a>作品：125</a></div>
+                </li>
+                <li class="list">
+                    <div class="type1">
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业3：摄影社区热门小镇/图片素材/pic_06.jpg">                 </div> 
+                    <div class="type2">
+                    <span>植物的无声世界</span>
+                    <a>成员：235</a><br/>
+                    <a>作品：1250</a></div>
+                </li>
+            </ul>
+
+        </div>//Add empty div to avoid border subsiding.
+    </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>//Q2
+<html>
+    <head>
+        <title>
+            名人名言
+        </title>
+        <style>
+            .box{
+                padding-left: 60px;
+                padding-right: 180px;
+            }
+
+            .box1{
+                float: left;
+                padding: 2px 2px 2px 2px;
+                width: 580px;
+                font-size: 14px;
+
+            }
+
+            .box2{
+                float: right;
+                padding: 2px 10px 2px 20px;
+                width: 360px;
+                border: 1px solid grey;
+            }
+
+            .box3{
+                margin-top: 30px;
+                float: left;
+                width: 1180px;
+            }
+            div.d1{
+                border: 1px solid grey;
+                padding: 3px 3px 3px 3px;
+                float: left;
+            }
+
+            div.d2{
+                border: 1px solid grey;
+                padding: 3px 3px 3px 3px;
+                float: left;
+                width: 570PX;
+            }
+
+            div.firstbox{
+                border: 1px solid grey;
+                padding: 4px 4px 2px 4px;
+                float: left;
+            }
+
+            div.emptybox{
+                width: 42px;
+                height: 28px;
+                float: left;
+                border-bottom: 1px solid gray;
+            }
+
+            a.type1{
+                font-style: italic;
+                line-height: 24px;
+            }
+
+            a.type2{
+                font-style: italic;
+                font-size: 16px;
+                color: black;
+            }
+
+            
+
+            a{
+                color: grey;
+                text-decoration: none;
+            }
+
+            hr{
+                display:block;
+            }
+
+            h2.size{
+                line-height: 5px;
+                font-weight:600;
+            }
+
+          
+
+            h2{
+                font-weight: bolder;
+            }
+
+            p.p1{
+                line-height: 25px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="box">
+            <h2>名人名言</h2><br/>
+            <a class="type1">分享名人名言，开始一段触动心灵的智慧之旅</a><br/><br/><br/>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="firstbox"><a href="">登录</a></div>
+            <div class="d1"><a href="">关于</a></div>
+            <div class="d1"><a href="">名人名言</a></div>
+            <div class="d1"><a href="">英文名言（English）</a></div>
+            <div class="d1"><a href="">心理杂志</a></div>
+            <div class="d1"><a href="">心理书籍</a></div>
+            <div class="d1"><a href="">专题活动</a></div>
+            <div class="d1"><a href="">发表</a></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div>
+            <div class="emptybox"></div><br/><br/><br/>
+            <div class="box1">
+                <div class="d1"><h2 class="size"><strong>心理学经典名言的智慧</strong></h2>
+                <p class="p1"><a>洞察人性的美与丑，认识自我的强与弱。一句好的格言能够穿越时间，永不失色、历久弥香，它总是能给人们带来心灵的滋养。</a></p></div>
+                <p class="p1">
+                <strong>创造力（creativity）有两个词根：Crera拉丁语的意思是“去创造”。Krainir希腊语的意思是“去实现”。所以，创造力不仅仅是一种想象力、一种天赋，创造力更是一种将自己的想法付诸实现的能力。</strong></p>
+                创造力（creativity）有两个词根：Crera拉丁语的意思是“去创造”。Krainir希腊语的意思是“去实现”。所以，创造力不仅仅是一种想象力、一种天赋，创造力更是一种将自己的想法付诸实现的能力。<br/>       
+                发表在 未分类 | 标签： 《换个脑袋去思考》, 创造力 | 留下评论<br/><br/>
+                <div class="d2">
+                    <h2 class="size">作者简介</h2>
+                </div><br/>
+                <p class="p1">
+                    <strong>如果你还没有注意到你有能力让对方作出你所希望得到的反应，那么你就还没有很好地掌握人生的真谛。这其实简单到不可思议。如果你希望他人对你感兴趣，那么你就要先对他人产生兴趣；如果你想让他人紧张，那么你自己首先要紧张起来。就是这么简单。人们会按照你对待他们的方式对待你。这其中没有什么秘诀。看看周围的人，你可以在与下一个人交流时证实这一点。</strong></p> 
+                    如果你还没有注意到你有能力让对方作出你所希望得到的反应，那么你就还没有很好地掌握人生的真谛。这其实简单到不可思议。如果你希望他人对你感兴趣，那么你就要先对他人产生兴趣；如果你想让他人紧张，那么你自己首先要紧张起来。就是这么简单。人们会按照你对待他们的方式对待你。这其中没有什么秘诀。看看周围的人，你可以在与下一个人交流时证实这一点。<br/>
+                    发表在 未分类 | 标签： 《怎样出售设计创意》, 温斯顿·丘吉尔 | 留下评论
+                
+                <div class="d1">
+                    <p><a class="type2">赞助广告</a></p>
+                    <img src="/07-02 提供给学员的内容/02 作业素材/作业4：名人名言/图片素材/ad_2.jpg" width="570px">
+                </div>
+        </div>
+            <div class="box2">
+                <p><a class="type2">赞助广告</a></p>
+                <img src="/07-02 提供给学员的内容/02 作业素材/作业4：名人名言/图片素材/ad.jpg">
+                <br/>
+                <a class="type2"><strong>搜索</strong></a><br/><br/>
+                <input type="text" value="" placeholder="点击搜索"><br/><br/>
+                <a class="type2"><strong>标签</strong></a><br/><br/>
+                <a class="type1">
+                    60年语录 《犯罪心理》 世间百态 二十四史传统名人 体育人物 卡斯特罗 卡斯特罗名言 卡斯特罗语录 历史 友谊爱情 古代格言 名人名言 名人随语 教子立人 新闻事件 李白 爱情语录 韩寒语录 
+                </a><br/><br/>
+        </div>
+            <div class="box3">
+                <hr/>
+                <center>&copy;<a>All Rights Reserved by Psytopic.来自Psytopic.com的礼物</a></center>
+                <br/>
+            </div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>//Q3
+<html>
+    <head>
+        <title>
+            彩妆热卖产品列表
+        </title>
+        <style>
+            
+                
+            div.emptybox{
+                height:25px ;
+                width:50px;
+            }
+
+            div.num{
+                height: 20px;
+                width: 20px;
+                margin: 1px 4px 1px 4px;
+                border-radius:50%;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+                display: inline-block;
+                text-align: center;
+                
+            }
+            div.type1{
+                background-color: rgb(250, 54, 64);
+                color: white;
+                width: 260px;
+                padding: 2px 4px 2px 15px;
+                line-height: 30px;
+                display: inline-block;
+                margin-left: 0px;
+            }
+
+            div.type2{
+                border-bottom: 1px dashed grey;
+                width: 280px;
+                display: inline-block;
+                height: 25px;
+                overflow: hidden;
+            }
+
+            div.type2:hover{
+                height: 180px;
+            }
+
+            ol{
+                list-style-type:none;
+                padding-inline-start: 0px;
+            }
+
+            a{
+                color: grey;
+                font-size: 14px;
+                text-decoration: none;
+            }
+            a:hover{
+                color: rgb(243, 96, 120);
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="type1">
+                大家都喜欢的彩妆
+            </div>
+            <ol>
+                <li>
+                    <div class="type2">
+                        <div class="num"><strong>1</strong></div><a>Za姬苪新能真皙美白隔离霜&nbsp;35g</a>
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业5：彩妆热卖产品列表/image/icon-1.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="type2">
+                        <div class="num"><strong>2</strong></div><a>美宝莲精纯矿物奇妙新颜乳霜BB霜&nbsp;30ml</a>
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业5：彩妆热卖产品列表/image/icon-2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="type2">
+                        <div class="num"><strong>3</strong></div><a>菲奥娜水漾CC霜40g</a><div class="emptybox"></div>
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业5：彩妆热卖产品列表/image/icon-3.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="type2">
+                        <div class="num"><strong>4</strong></div><a>DHC蝶翠诗橄榄卸妆油</a>
+                        <img src="/07-02 提供给学员的内容/02 作业素材/作业5：彩妆热卖产品列表/image/icon-4.jpg">
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>
+
