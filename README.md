@@ -1,2 +1,2 @@
-# html
-Files to record problems i meet in studying html.
+
+Files for recording problems i meet .
